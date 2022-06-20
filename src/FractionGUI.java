@@ -65,8 +65,8 @@ public class FractionGUI extends JFrame {
         screen.setLayout(new FlowLayout());
         addBtn = new JButton("+");
         subBtn = new JButton("-");
-        multiBtn = new JButton("Ã—");
-        divBtn = new JButton("Ã·");
+        multiBtn = new JButton("×");
+        divBtn = new JButton("÷");
         num1 = new JTextField("");
         den1 = new JTextField("");
         num2 = new JTextField("");
