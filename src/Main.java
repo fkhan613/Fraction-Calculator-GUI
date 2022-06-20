@@ -8,6 +8,6 @@
 
 class Main {
     public static void main(String[] args) {
-        Fraction.test();
+        FractionGUI screen = new FractionGUI();
     }
 }
