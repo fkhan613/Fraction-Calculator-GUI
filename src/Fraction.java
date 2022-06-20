@@ -108,7 +108,7 @@ class Fraction {
         //check if the denominator is 0
         if(d == 0) {
 			System.err.println("\nCan't have a denominator of 0. Can't you math?👎\n");
-			return 1;
+			return 0;
 		}
         //check if both values are negative, if so make them positive
         else if (this.num < 0 && d < 0) {setNum(this.num*-1); d = Math.abs(d);}
